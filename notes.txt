@@ -1,0 +1,35 @@
+present working directory : pwd
+check user list : git config --list
+
+the vs code extension use in coding:
+color highlight
+css peek
+ES7+ react 
+ESlint
+live preview
+live server
+live share
+material icon themes
+postman
+prettier
+tailwind css
+
+to get code from 'tailblock' to create website.
+
+set:(for set the uname and email.)
+git config --global user.name "PalakVanjara"
+git config --global user.email palakvanjara38@gmail.com
+git config --list
+
+unset:(1st unset the uname and email then again set with above 2 command).
+git config --global --unset user.name
+git config --global --unset user.email
+
+
+command for push data from vs to github :
+git add .
+git commit -m "enter any message"
+git push origin main
+
+
+
