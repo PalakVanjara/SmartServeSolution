@@ -16,22 +16,23 @@ tailwind css
 
 ----------------**to get code from 'tailblock' to create website.**------------------------------
 
-set:(for set the uname and email.)
-git config --global user.name "PalakVanjara"
-git config --global user.email palakvanjara38@gmail.com
-git config --list
+👉set:(for set the uname and email.)
+  git config --global user.name "PalakVanjara"
+  git config --global user.email palakvanjara38@gmail.com
+  git config --list
 
-unset:(1st unset the uname and email then again set with above 2 command).
-git config --global --unset user.name
-git config --global --unset user.email
+👉unset:(1st unset the uname and email then again set with above 2 command).
+  git config --global --unset user.name
+  git config --global --unset user.email
 
 
-command for push data from vs to github :
-git add .
-git commit -m "enter any message"
-git push origin main
+👉command for push data from vs to github :
+  git add .
+  git commit -m "enter any message"
+  git push origin main
 
-to add tailwind suggestion. make tailwind.config.js file in vs code folder and type this code .
+👉To add tailwind suggestion: 
+  make tailwind.config.js file in vs code folder and type this code .
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -44,39 +45,42 @@ export default {
 diffrent css class jova mate tag na class ma koi 1 class select kari tya (ctr+spacebar) aapo.
 to tamne ae class ma use thayeli css dekhase
 -------------------------------
-codeshare.io/tailwind
-Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
-aa script ne powershell ma run as administrator tarike open karvanu ne pachi tema aa scipt paste karvani.
 
-aek navu folder banavanu taiwindcli nam nu ane aema terminal ma jaine tailwind in website mathi tailwind cli section mathi 1st command copy kari terminal ma paste karo to navi 3 file banse.
-npm install tailwindcss @tailwindcss/cli (aa copy karvani ne terminal ma paste karvanu). aama 3 file aavse
-
+👉codeshare.io/tailwind 
+  Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+  aa script ne powershell ma run as administrator tarike open karvanu ne pachi tema aa scipt     paste karvani.
+👉New folder(tailwindcli)
+aek navu folder banavanu taiwindcli nam nu ane aema terminal ma jaine tailwind in website mathi (tailwind cli) section mathi 1st command copy kari terminal ma paste karo to navi 3 file banse.
+1st command:
+      npm install tailwindcss @tailwindcss/cli (aa copy karvani ne terminal ma paste karvanu). 
+-aama 3 file aavse.
+2nd command:
 -pachi input.css file banavani ane aema aa paste karvanu :@import "tailwindcss";
-index.html ma aa link aapvani :<link rel="stylesheet" href="./output.css">
-aa scrpit json file ma lakho 
+-index.html ma aa link aapvani :<link rel="stylesheet" href="./output.css">
+-aa scrpit json file ma lakho 
 
 "scripts": {
     "start": "npx @tailwindcss/cli -i ./input.css -o ./output.css --watch"
   }
 aa link official tailwind css ni website mathi levani che.
 
-pachi npm run start karvanu terminal ma
+👉pachi npm run start karvanu terminal ma:
 -output.css file auto create thase.
 
 ----jo node moduls ke package-lock.json delete thay jay to aa command through aene pachi lavi skay.( npm i )
 
------aek navi repo banavani github ma aema readme.md nathi levani ane public rakvani 
+-----aek navi repo banavani github ma tailwind-cli name ni, aema readme.md nathi levani ane public rakvani .
 
-git init karvanu . 
-pachi niche ni link terminal ma paste karvanu.
-pachi git remote add origin https://github.com/PalakVanjara/tailwind-cli.git aa link terminal ma paste karvani che niche na command sathe 
+-git init karvanu . 
+-pachi niche ni link terminal ma paste karvanu.
+link :pachi git remote add origin https://github.com/PalakVanjara/tailwind-cli.git aa link terminal ma paste karvani che niche na command sathe. 
 
 have terminal ma aa comand lakhavna:
 git init
 git link(upar ni link)
 git commit -m "messge"
 ------------------------------------------------------------------------------------------------------------------------------------------------------------- 
-branch:(branch craete karva mate)
+👉branch:(branch craete karva mate)
 
 git branch
 git branch branch_name
@@ -86,7 +90,7 @@ aa 3 command lakvathi branch create thay ane aa command terminal ma lakhavnu.
 --have development name ni branch banavani.
 git branch development (create development branch)
 git branch  (aa comand karta branch ni list dekhase)
-git checkout development ( aa command branch shift karva mate)
+git checkout development ( aa command branch switch karva mate)
 
 ---------------------------
 readme.md file aa folder ma add kari ne badha command and aena meanings lakhavna.
@@ -99,12 +103,12 @@ aa command lakhi ne pachi link aave aeni par click+click karvnau aetle github ma
 aa ni par click karvanu 
 
 
-2 branch ne merege pull request mate:
+👉2 branch ne merege pull request mate:
 github ma javanu pull request par click karvanu .
 pachi compare &merge button par click karvanu.
 total 3 button green color na aavshe aena par click karvanu ane pachi purple karavnu.
 
-change repo name with .github.io repo na nam ni pachal lakhavanu
+👉change repo name with .github.io repo na nam ni pachal lakhavanu.
 pachi settings ma page ma jai ne deploy from branch select karavnu.
 pachi development select kari ne save karvanu.
-actions par javanu pachi pages build and development par click kari ne deply ma link aavse aena par click karta website dekhase.
+actions par javanu pachi pages build and development par click kari ne deploy ma link aavse aena par click karta website dekhase.
