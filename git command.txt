@@ -108,5 +108,3 @@ change repo name with .github.io repo na nam ni pachal lakhavanu
 pachi settings ma page ma jai ne deploy from branch select karavnu.
 pachi development select kari ne save karvanu.
 actions par javanu pachi pages build and development par click kari ne deply ma link aavse aena par click karta website dekhase.
-
--------------------------
