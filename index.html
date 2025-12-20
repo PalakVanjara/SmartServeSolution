@@ -21,11 +21,14 @@
       <a class="mr-5 hover:text-gray-900" href="contact.html">Contact</a>
       <a class="mr-5 hover:text-gray-900" href="services.html">Services</a>
     </nav>
-    <button class="inline-flex items-center bg-black text-white border-0 py-1 px-3 focus:outline-none hover:bg-black-100 rounded text-base mt-4 md:mt-0">Login
-      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-        <path d="M5 12h14M12 5l7 7-7 7"></path>
-      </svg>
+    <button class="inline-flex items-center bg-black text-white border-0 py-1 px-3 focus:outline-none hover:bg-black-100 rounded text-base mt-4 md:mt-0" onclick="gologin()">Login
+    
     </button>
+     <script>
+          function gologin() {
+          window.location.href = "register.html";
+           }
+      </script>
   </div>
 </header>
 <!-- home -->
@@ -37,9 +40,15 @@
       </h1>
       <p class="mb-8 leading-relaxed">Discover how to streamline your business operations with our comprehensive guide to smart service solutions.</p>
       <div class="flex justify-center">
-        <button class="inline-flex text-white bg-blue-600 border-0 py-2 px-6 focus:outline-none hover:bg-gray-600 rounded text-lg" >Explore Services</button>
-        <button class="ml-4 inline-flex text-white bg-blue-600 border-0 py-2 px-6 focus:outline-none hover:bg-gray-600 rounded text-lg">Learn More</button>
+        <button class="inline-flex text-white bg-blue-600 border-0 py-2 px-6 focus:outline-none hover:bg-gray-600 rounded text-lg" onclick="goToPage()">Explore Services</button>
+        <button class="ml-4 inline-flex text-white bg-blue-600 border-0 py-2 px-6 focus:outline-none hover:bg-gray-600 rounded text-lg"onclick="goToPage()">Learn More</button>
       </div>
+      <script>
+          function goToPage() {
+          window.location.href = "services.html";
+           }
+      </script>
+
     </div>
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
       <img class="object-cover object-center rounded" alt="hero" src="p1.webp">
